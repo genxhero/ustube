@@ -10,5 +10,6 @@ class VideosController < ApplicationController
 
     def show
         @video = Video.find(params[:id].to_i)
+        @user = current_user ? current_user : nil
     end
 end
