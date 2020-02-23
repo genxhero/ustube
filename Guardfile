@@ -44,7 +44,7 @@ guard 'livereload' do
           (?:\.\w+|$) # other extensions
           }x) do |m|
       path = m[1]
-      "/assets/#{path}.#{type}"
+      "/assets/stylesheets/#{path}.#{type}"
     end
   end
 

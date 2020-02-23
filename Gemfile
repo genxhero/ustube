@@ -22,6 +22,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem 'wdm', '>= 0.1.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -38,10 +39,11 @@ group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'pry-rails'
-  gem 'guard', '>= 2.2.2', require: false
+  gem 'guard', require: false
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
   gem 'rb-fsevent', require: false
+  gem 'win32console'
 end
 
 group :test do

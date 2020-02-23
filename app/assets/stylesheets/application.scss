@@ -19,13 +19,31 @@
 
  .video-container {
      width: 50vw;
+     padding: .1rem;
  }
 
  .video-show-page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 
  .header {
-     color: blue;
+     color: white;
+     font-size: xx-large;
+     display: flex;
+     justify-content: center;
+     background-image: url('http://www.jemome.com/cdn/2009/02/american-flag-facebook-banner_2573877.jpg');
+     background-size: cover;
+     padding: 2rem;
+     width: 100%;
+     & > h1 {
+        background: darkred;
+        padding: .5rem;
+        margin: 2rem;
+        border-radius: 5px;
+        width: fit-content;
+        text-align: center;
+     }
  }
