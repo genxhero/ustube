@@ -52,13 +52,14 @@
 
  .advertisement {
      position: fixed;
-     left: 0;
+     left: 6rem;
      background: skyblue;
      border: 1px dashed black;
      padding: 2rem;
      width: 10rem;
      height: 10rem;
      margin: 1rem;
+     border-radius: 5px;
      display: flex;
      align-items: center;
      justify-content: center;
