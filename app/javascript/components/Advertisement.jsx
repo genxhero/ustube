@@ -4,18 +4,20 @@ import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
 const Advertisement = props => {
      const [visible, toggleVisibility] = useState(true)
     return (
-      <div className="advertisement">
-        <div>Your Ad Here </div>
+      <div className={`advertisement ${visible ? '' : 'hidden'}`}>
+        <div className="ad-content">
+            Your Ad Here 
+        </div>
         {visible ? (
           <div
-            className={"hide-btn-left"}
+            className={"show-hide-toggle"}
             onClick={() => toggleVisibility(false)}
           >
             <FaArrowAltCircleLeft />
           </div>
         ) : (
           <div
-            className={"hide-btn-left"}
+            className={"show-hide-toggle"}
             onClick={() => toggleVisibility(true)}
           >
             <FaArrowAltCircleRight />
