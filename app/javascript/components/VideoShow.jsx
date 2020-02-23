@@ -1,9 +1,9 @@
 import React from 'react';
 import Advertisement from './Advertisement';
+import Donation from './Donation';
 import { Player } from "video-react";
 
 const VideoShow = props => {
-    debugger;
 return (
   <div className="video-show-page">
       <div className="header">
@@ -11,6 +11,7 @@ return (
       </div>
     <div className="middle-content">
       <Advertisement />
+      <Donation />
       <div className="video-container">
         <Player
           playsInline
