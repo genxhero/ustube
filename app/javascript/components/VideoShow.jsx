@@ -1,4 +1,5 @@
 import React from 'react';
+import Advertisement from './Advertisement';
 import { Player } from "video-react";
 
 const VideoShow = props => {
@@ -9,6 +10,7 @@ return (
         <h1>US Tube - A Platform for All of Us</h1>
       </div>
     <div className="middle-content">
+      <Advertisement />
       <div className="video-container">
         <Player
           playsInline
