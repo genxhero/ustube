@@ -48,3 +48,18 @@
         text-align: center;
      }
  }
+
+
+ .advertisement {
+     position: fixed;
+     left: 0;
+     background: skyblue;
+     border: 1px dashed black;
+     padding: 2rem;
+     width: 10rem;
+     height: 10rem;
+     margin: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
