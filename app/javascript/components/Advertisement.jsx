@@ -6,7 +6,7 @@ const Advertisement = props => {
     return (
       <div className={`advertisement ${visible ? "" : "hidden"}`}>
         <div className={`ad-content ${visible ? "" : "hidden"}`}>
-          Your Ad Here
+          <span>Your Ad Here </span>
         </div>
         {visible ? (
           <div
