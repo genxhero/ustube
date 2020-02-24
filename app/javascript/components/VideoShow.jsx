@@ -4,26 +4,28 @@ import Donation from './Donation';
 import { Player } from "video-react";
 
 const VideoShow = props => {
+  const {video, currentUser} = props;
 return (
   <div className="video-show-page">
       <div className="header">
-        <h1>US Tube - A Platform for All of Us</h1>
+        <h1>US Tube </h1>
       </div>
     <div className="middle-content">
+      <h2>{video.title}</h2>
       <Advertisement />
       <Donation />
       <div className="video-container">
         <Player
           playsInline
-          src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          src={video.video_url}
         />
       </div>
       <div className="bottom-content">
         <div className="ratings">
-                    <span>Star ratings will go here</span>
-            </div>
+            <span>Star ratings will go here</span>
+        </div>
             <div className="video-information">
-                    <span>VIdeo information will go here</span>
+              <p>{video.description}</p>  
             </div>
             <div className="comments-section">
                     <p>
