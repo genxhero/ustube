@@ -15,6 +15,8 @@
  */
 
  @import "../../../node_modules/video-react/styles/scss/video-react";
+ @import "./index.scss";
+ @import "./show.scss";
 
 
  .video-container {
@@ -23,12 +25,7 @@
      margin: 1rem;
  }
 
- .video-show-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
+ 
 
  .header {
      color: white;
@@ -67,7 +64,6 @@
      &.hidden {
          width: 0;
          padding: 0;
-
      }
  }
 
@@ -75,7 +71,7 @@
      padding: 2rem;
      color: black;
      font-family: Arial, Helvetica, sans-serif;
-     &:hidden {
+     &.hidden {
          visibility: hidden;
      }
  }
@@ -85,14 +81,19 @@
      right: 6rem;
      padding: 2rem;
      width: 10rem;
-     height: 10rem;
+     height: fit-content;
      margin: 1rem;
-     top: 50%;
+     top: 30vh;
      border-radius: 5px;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
+     border-radius: 5px;
+     background: lightgray;
+     & > p {
+        font-weight: 800;
+     }
  }
 
  .show-hide-toggle {
