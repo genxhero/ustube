@@ -3,6 +3,7 @@ import Advertisement from './Advertisement';
 import Donation from './Donation';
 import { Player } from "video-react";
 import RatingsSection from './RatingsSection';
+import CommentsSection from './CommentsSection';
 
 const VideoShow = props => {
   const {video, currentUser} = props;
@@ -26,11 +27,7 @@ return (
             <div className="video-information">
               <p>{video.description}</p>  
             </div>
-            <div className="comments-section">
-                    <p>
-                        Comments will go here when implemented.
-                    </p>
-            </div>
+           <CommentsSection />
       </div>
      
     </div>
