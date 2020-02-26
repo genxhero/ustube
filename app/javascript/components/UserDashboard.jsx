@@ -6,9 +6,10 @@ import React from 'react';
 
 const UserDashboard = props => {
     const user = {props}
-    return <div>
+    return (
+    <div className="user-profile">
         user dash
-    </div>
+    </div>)
 }
 
 export default UserDashboard;
