@@ -7,3 +7,5 @@ const RatingsSection = props => {
         </div>
     )
 }
+
+export default RatingsSection;

@@ -2,6 +2,7 @@ import React from 'react';
 import Advertisement from './Advertisement';
 import Donation from './Donation';
 import { Player } from "video-react";
+import RatingsSection from './RatingsSection';
 
 const VideoShow = props => {
   const {video, currentUser} = props;
@@ -21,9 +22,7 @@ return (
         />
       </div>
       <div className="bottom-content">
-        <div className="ratings">
-            <span>Star ratings will go here</span>
-        </div>
+            <RatingsSection />
             <div className="video-information">
               <p>{video.description}</p>  
             </div>
