@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import StarRatingComponent from 'react-star-rating-component';
+import StarRating from './star_rating/StarRating';
+
 
 
 const RatingsSection = props => {
@@ -11,12 +12,7 @@ const RatingsSection = props => {
 
     return (
       <div className="ratings-section">
-        <StarRatingComponent
-          name="rate1"
-          starCount={10}
-          value={rating}
-          onStarClick={onStarClick}
-        />
+        <StarRating color="blue" starCount={10} />
       </div>
     );
 }
