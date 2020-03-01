@@ -35,7 +35,7 @@ const StarRating = props => {
                     <Star color={color} name="10" onClick={handleClick} starType={currentRating >= 10 ? "full" : "blank"} />
                 </div>
             }
-            <span>{currentRating}</span>
+            <span className="rating-label">{currentRating}</span>
 
             <button onClick={e => console.log("GUGGAGSDF")} />
         </div>
