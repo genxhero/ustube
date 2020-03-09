@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * Dashboard for a user.
+ * Options for a user.
  */
 
 const UserOptions = props => {
