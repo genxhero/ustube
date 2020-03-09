@@ -1,6 +1,9 @@
 import React from 'react';
 import { PayPalButton } from "react-paypal-button-v2";
 
+
+//This is for donation buttons
+
 const Donation = props => {
     return (
         <div className="donation">
