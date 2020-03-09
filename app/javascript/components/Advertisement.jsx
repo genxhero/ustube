@@ -1,6 +1,11 @@
 import React, {useState} from 'react';
 import {FaArrowAltCircleLeft, FaArrowAltCircleRight} from 'react-icons/fa';
 
+/**
+ * This is meant for adverts, drawn from a separate ads api.
+ * 
+ */
+
 const Advertisement = props => {
      const [visible, toggleVisibility] = useState(true)
     return (
