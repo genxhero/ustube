@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import StarRating from './star_rating/StarRating';
 
-
+/**
+ * Star rating section for videos, set to TEN for accuracy
+ */
 
 const RatingsSection = props => {
 
