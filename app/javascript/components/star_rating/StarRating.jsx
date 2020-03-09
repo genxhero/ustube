@@ -2,6 +2,14 @@ import React, { useState } from 'react';
 import Star from './Star';
 import PropTypes from 'prop-types'
 
+/**
+ * 
+ * Custom component for a star rating, totally reusable.
+ * TODO: Make this sucker a node module.
+ * 
+ * @param {*} props 
+ */
+
 const StarRating = props => {
 
     StarRating.propTypes = {
