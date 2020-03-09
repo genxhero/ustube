@@ -2,6 +2,12 @@ import React from 'react';
 import { MdStar, MdStarBorder, MdStarHalf } from 'react-icons/md';
 import PropTypes from 'prop-types';
 
+/**
+ * This is a star. When clicked on, it is full.  When it is unclicked or a previous star is clicked, it is clear.
+ * Half stars are included but may not be necessary. 
+ * 
+ * @param {*} props 
+ */
 
 const Star = props => {
 
