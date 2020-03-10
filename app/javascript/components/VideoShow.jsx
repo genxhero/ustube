@@ -5,6 +5,12 @@ import { Player } from "video-react";
 import RatingsSection from './RatingsSection';
 import CommentsSection from './CommentsSection';
 
+/**
+ * Show page for a single video
+ * 
+ * @param {*} props 
+ */
+
 const VideoShow = props => {
   const {video, currentUser} = props;
 return (
