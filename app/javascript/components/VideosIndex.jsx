@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * Index page for videos
+ * @param {*} props 
+ */
+
 const VideosIndex = props => {
     const {videos} = props;
     return (
