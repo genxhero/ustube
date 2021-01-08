@@ -1,4 +1,6 @@
 import React from 'react';
+import { Video } from 'video-react';
+import VideoIndexCard from './VideoIndexCard';
 
 /**
  * Index page for videos
@@ -11,7 +13,7 @@ const VideosIndex = props => {
     <div>
         <h1>Latest Videos</h1>
         <div>
-            {videos.map( video => <div>Your Video Here</div>)}
+            {videos.map( video => <VideoIndexCard video={video}/>)}
         </div>
     </div>)
 }

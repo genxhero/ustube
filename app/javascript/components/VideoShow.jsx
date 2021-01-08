@@ -4,6 +4,7 @@ import Donation from './Donation';
 import { Player } from "video-react";
 import RatingsSection from './RatingsSection';
 import CommentsSection from './CommentsSection';
+import VideoInformation from './VideoInformation';
 
 /**
  * Show page for a single video
@@ -30,9 +31,7 @@ return (
       </div>
       <div className="bottom-content">
             <RatingsSection />
-            <div className="video-information">
-              <p>{video.description}</p>  
-            </div>
+           <VideoInformation description={video.description} creator={video.user_id} currentUser={currentUser}/>
            <CommentsSection />
       </div>
      
