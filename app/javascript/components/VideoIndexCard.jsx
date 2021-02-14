@@ -13,15 +13,22 @@ const VideoIndexCard = (props) => {
     const {video} = props;
     return (
         <div className="video-index-card">
-            <VideoThumbnail 
-              videoUrl={video.video_url}
-              thumbnailHandler={(thumbnail) => console.log(thumbnail)}
-              width={120}
-              height={80}
-              />
             <h3>{video.title}</h3>
+            <img src={video.image_url}/>
+
+            <h3>{videitle}</h3>        
         </div>
     )
 }
 
 export default VideoIndexCard;
+
+/**
+ * <VideoThumbnail 
+              videoUrl={video.video_url}
+              thumbnailHandler={(thumbnail) => console.log(thumbnail)}
+              width={120}
+              height={80}
+              />
+This shit doesn't work due to CORS issues.
+ */
