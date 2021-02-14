@@ -4,6 +4,8 @@ import VideoThumbnail from 'react-video-thumbnail';
 /**
  * Index component showing a thumbnail and description for a video
  * 
+ * Need to figure out the thumbnail situation perhaps during upload
+ * 
  * @param {*} props 
  */
 
