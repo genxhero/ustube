@@ -31,8 +31,8 @@ return (
       </div>
       <div className="bottom-content">
             <RatingsSection />
-           <VideoInformation description={video.description} creator={video.user_id} currentUser={currentUser}/>
-           <CommentsSection />
+            <VideoInformation description={video.description} creator={video.user_id} currentUser={currentUser}/>
+            <CommentsSection />
       </div>
      
     </div>

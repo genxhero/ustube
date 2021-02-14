@@ -14,7 +14,7 @@ const VideoIndexCard = (props) => {
     return (
         <div className="video-index-card">
             <h3>{video.title}</h3>
-            <img src={video.image_url}/>
+            <img className="video-thumbnail" src={video.image_url}/>
 
             <h3>{videitle}</h3>        
         </div>
