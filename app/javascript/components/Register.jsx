@@ -5,13 +5,14 @@ const Register = props => {
 
 
     const handleChange = e => {
-        console.log(user)
+        updateUser({[e.target.name]: e.target.value})
     }
 
     const handleSubmit = e => {
         console.log("trybnna submit")
     }
 
+    console.log(user)
     return (
         <div className="session-form">
             <h1>Register</h1>
