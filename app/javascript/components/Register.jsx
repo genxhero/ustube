@@ -5,13 +5,13 @@ const Register = props => {
 
 
     const handleChange = e => {
-
+        console.log("the function isbeing called")
     }
 
     return (
         <div className="session-form">
             <h1>Register</h1>
-                <form>
+                <form onChange={handleChange}>
                     <input className="session-field" />
                     <input className="session-field" />
                     <input className="session-field" />
