@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import $ from 'jquery';
 
 const Register = props => {
     const [user, updateUser] = useState({username: "", email: "", password: "", passwordConfirm: ""})
@@ -13,7 +14,7 @@ const Register = props => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        
+
     }
 
     console.log(user)

@@ -1,5 +1,5 @@
 /**
- * Part of user dashboard, latestvideos from subscriptions. 
+ * Part of user dashboard, latest videos from subscriptions. 
  * No sorting algorithms, just the most recent fair and square.
  */
 
