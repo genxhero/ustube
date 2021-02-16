@@ -5,7 +5,6 @@ const Register = props => {
 
 
     const handleChange = e => {
-        // debugger
         updateUser( prev => ({
             ...prev,
             [e.target.name]: e.target.value
@@ -13,7 +12,8 @@ const Register = props => {
     }
 
     const handleSubmit = e => {
-        console.log("trybnna submit")
+        e.preventDefault();
+        
     }
 
     console.log(user)
