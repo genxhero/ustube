@@ -4,6 +4,13 @@ const Login = props => {
 
     const [credentials, updateCredentials] = useState({email: "", password: ""})
 
+     const handleChange = e => {
+        updateUser( prev => ({
+            ...prev,
+            [e.target.name]: e.target.value
+        }))
+    }
+
     return (
         <div className="session-form">
             <h1>Login</h1>
