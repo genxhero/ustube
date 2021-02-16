@@ -4,6 +4,10 @@
     background: white;
     padding: .2rem;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .session-field {
@@ -14,5 +18,8 @@
 .session-button {
     padding: .5rem;
     font-size: large;
+    font-weight: bolder;
     border-radius: 4px;
+    color: white;
+    background: red;
 }
