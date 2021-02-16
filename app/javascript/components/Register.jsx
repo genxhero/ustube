@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const Register = props => {
+    const [user, updateUser] = useState({username: "", email: "", password: "", passwordConfirm: ""})
+    
     return (
         <div className="session-form">
             <h1>Register</h1>
