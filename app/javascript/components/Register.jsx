@@ -5,8 +5,10 @@ const Register = props => {
 
 
     const handleChange = e => {
-        const newUser = Object.assign(user, {[e.target.name]: e.target.value})
-        updateUser(newUser)
+        updateUser( prev => ({
+            ...prev,
+            [e.target.name]: e.target.value
+        }))
     }
 
     const handleSubmit = e => {
