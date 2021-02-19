@@ -3,19 +3,19 @@
  */
 
 
-import React from 'react';
-import {BrowserRouter, Switch} from 'react-router';
+// import React from 'react';
+// import {BrowserRouter, Switch} from 'react-router';
 
-const App = props => {
+// const App = props => {
 
-    return (
-        <BrowserRouter>
-            <Switch>
+//     return (
+//         <BrowserRouter>
+//             <Switch>
 
-            </Switch>
-        </BrowserRouter>
-    )
+//             </Switch>
+//         </BrowserRouter>
+//     )
 
-}
+// }
 
-export default App;
+// export default App;
