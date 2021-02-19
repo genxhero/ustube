@@ -16,9 +16,7 @@ const VideoShow = props => {
   const {video, currentUser} = props;
 return (
   <div className="video-show-page">
-      <div className="header">
-        <h1>US Tube </h1>
-      </div>
+
     <div className="middle-content">
       <h2>{video.title}</h2>
       <Advertisement />

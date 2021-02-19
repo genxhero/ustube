@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function NavBar() {
     return (
-        <div>
-            TESTING
-        </div>
+    <div className="header">
+        <h1>US Tube </h1>
+    </div>
     )
 }
