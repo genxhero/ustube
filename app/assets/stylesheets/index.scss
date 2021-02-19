@@ -4,10 +4,15 @@
 }
 
 .video-thumbnail {
-    width: 20rem;
+    height: 20rem;
 }
 
 .videos-gallery {
     display: flex;
     flex-wrap: wrap;
+}
+
+.video-index-card {
+    margin: .5rem;
+    padding: .5rem;
 }
