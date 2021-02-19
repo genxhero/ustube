@@ -14,8 +14,8 @@ const VideoIndexCard = (props) => {
     console.log(video)
     return (
         <div className="video-index-card">
-            <h3>{video.title}</h3>
             <img className="video-thumbnail" src={video.image_url}/>
+            <a href={`/videos/${video.id}`}><h3>{video.title}</h3></a>
         </div>
     )
 }
