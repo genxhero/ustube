@@ -6,3 +6,8 @@
 .video-thumbnail {
     width: 20rem;
 }
+
+.videos-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}

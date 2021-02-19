@@ -12,7 +12,7 @@ const VideosIndex = props => {
     return (
     <div>
         <h1>Latest Videos</h1>
-        <div>
+        <div className="videos-gallery">
             {videos.map( video => <VideoIndexCard video={video}/>)}
         </div>
     </div>)
