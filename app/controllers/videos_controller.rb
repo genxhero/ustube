@@ -6,7 +6,7 @@ class VideosController < ApplicationController
     end
 
     def even
-        @videos = Video.where("id % 2 == 0")
+        @videos = Video.where("id % 2 = 0")
         render :even
     end
     
