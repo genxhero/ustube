@@ -4,6 +4,11 @@ class VideosController < ApplicationController
         @videos = Video.all
         render :index
     end
+
+    def even
+        @videos = Video.where("id % 2 == 0")
+        render :even
+    end
     
     def create 
     end
