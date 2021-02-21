@@ -1,9 +1,12 @@
 class RatingsController < ApplicationController
 
+    #TODO: if user_id and video_id combo already exists, change original's value. Otherwise, create new
     def create 
         @rating = Rating.new(rating_params)
         if @rating.save
             #what ought i to do? re-render? ask in slack
+        else
+            render json: @user.errors.full_messages, status: 422
         end
     end
 
