@@ -8,6 +8,9 @@ class RatingsController < ApplicationController
     end
 
     def destroy
+        @rating = Rating.find(params[:id].to_i)
+        @rating.destroy
+        #again ought i to render something here? lordy this is easier with graphQL
     end
 
     private  
