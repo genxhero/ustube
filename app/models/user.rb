@@ -10,6 +10,11 @@ attr_reader :password
   foreign_key: :user_id,
   class_name: "Video"
 
+    has_many :ratings,
+    primary_key: :id,
+    foreign_key: :user_id,
+    class_name: "Rating"
+
   def password=(password)
     @password = password
     self.password_digest = BCrypt::Password.create(password)
