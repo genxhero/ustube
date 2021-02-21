@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :videos
   get '/even', to: 'videos#even'
   resources :sessions, only: [:new, :create, :destroy]
+  resources :ratings, only: [:create, :destroy]
   get '/login', to: 'sessions#new'
   get '/register', to: 'users#new'
 #  delete '/logout', to: 'sessions#destroy'
