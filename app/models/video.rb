@@ -6,4 +6,9 @@ class Video < ApplicationRecord
     primary_key: :id,
     foreign_key: :user_id,
     class_name: "User"
+
+    has_many :ratings,
+    primary_key: :id,
+    foreign_key: :video_id,
+    class_name: "Rating"
 end
