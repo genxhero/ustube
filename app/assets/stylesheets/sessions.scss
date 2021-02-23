@@ -24,7 +24,7 @@
 .session-field {
     padding: .5rem;
     font-size: medium;
-    margin: .2rem;
+    // margin: .2rem;
 }
 
 .session-button {
@@ -33,10 +33,11 @@
     font-weight: bolder;
     border-radius: 4px;
     color: white;
-    background: red;
+    background: darkred;
     &:hover {
         cursor: pointer;
         background:rgb(170, 16, 16);
+        color:(lightgray);
         transition: all .2s;
     }
 }

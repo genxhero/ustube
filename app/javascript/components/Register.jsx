@@ -23,13 +23,13 @@ const Register = props => {
             <div className="session-form-container">
                 <h1>Register</h1>
                     <form className="session-form" onChange={handleChange} onSubmit={handleSubmit}>
-                        <h4>Username</h4>
+                        <span>Username</span>
                         <input className="session-field" name="username"/>
-                        <h4>Email</h4>
+                        <span>Email</span>
                         <input className="session-field" name="email" />
-                        <h4>Password</h4>
+                        <span>Password</span>
                         <input className="session-field" name="password"/>
-                        <h4>Confirm Password</h4>
+                        <span>Confirm Password</span>
                         <input className="session-field" name="passwordConfirm" />
                         <input type="submit" className="session-button" />
                     </form>
