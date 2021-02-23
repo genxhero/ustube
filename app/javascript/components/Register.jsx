@@ -6,6 +6,8 @@ const Register = props => {
 
 
     const handleChange = e => {
+        debugger;
+
         updateUser( prev => ({
             ...prev,
             [e.target.name]: e.target.value
