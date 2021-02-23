@@ -4,14 +4,13 @@
     background: white;
     padding: .2rem;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .session-form {
-
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .session-field {
