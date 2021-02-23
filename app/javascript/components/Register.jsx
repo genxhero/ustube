@@ -19,16 +19,19 @@ const Register = props => {
 
     console.log(user)
     return (
-        <div className="session-form-container">
-            <h1>Register</h1>
-                <form className="session-form" onChange={handleChange} onSubmit={handleSubmit}>
-                    <input className="session-field" name="username"/>
-                    <input className="session-field" name="email" />
-                    <input className="session-field" name="password"/>
-                    <input className="session-field" name="passwordConfirm" />
-                    <input type="submit" className="session-button" />
-                </form>
+        <div className="session-page">
+            <div className="session-form-container">
+                <h1>Register</h1>
+                    <form className="session-form" onChange={handleChange} onSubmit={handleSubmit}>
+                        <input className="session-field" name="username"/>
+                        <input className="session-field" name="email" />
+                        <input className="session-field" name="password"/>
+                        <input className="session-field" name="passwordConfirm" />
+                        <input type="submit" className="session-button" />
+                    </form>
+            </div>
         </div>
+        
     );
 }
 
