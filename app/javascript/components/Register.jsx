@@ -7,10 +7,8 @@ const Register = props => {
 
     const handleChange = e => {
         e.persist();
-        debugger
         updateUser( prev => 
             {
-                debugger
               return {...prev,[e.target.name]: e.target.value}
             }
         )
