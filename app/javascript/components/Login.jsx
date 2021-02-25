@@ -18,7 +18,9 @@ const Login = props => {
             <div className="session-form-container">
                   <h1>Login</h1>
                   <form className="session-form" onChange={handleChange}>
+                            <span>Email</span>
                             <input className="session-field" name="email"/>
+                            <span>Password</span>
                             <input className="session-field" name="password"/>
                             <input type="submit" className="session-button" />
                     </form>    
