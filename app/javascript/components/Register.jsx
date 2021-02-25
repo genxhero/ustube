@@ -6,6 +6,7 @@ const Register = props => {
 
 
     const handleChange = e => {
+        e.persist();
         debugger
         updateUser( prev => 
             {
