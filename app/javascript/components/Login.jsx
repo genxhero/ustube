@@ -5,6 +5,8 @@ const Login = props => {
     const [credentials, updateCredentials] = useState({email: "", password: ""})
 
      const handleChange = e => {
+         // Since when do you need to use this persist function? 
+        e.persist();
         updateUser( prev => ({
             ...prev,
             [e.target.name]: e.target.value
