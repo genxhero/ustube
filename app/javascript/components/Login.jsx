@@ -16,14 +16,12 @@ const Login = props => {
     return (
         <div className="session-page">
             <div className="session-form-container">
-                <div className="session-form">
                   <h1>Login</h1>
-                  <form onChange={handleChange}>
+                  <form className="session-form" onChange={handleChange}>
                             <input className="session-field" name="email"/>
                             <input className="session-field" name="password"/>
                             <input type="submit" className="session-button" />
-                    </form>
-                </div>
+                    </form>    
             </div>
         </div>
       
