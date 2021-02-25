@@ -6,11 +6,13 @@ const Register = props => {
 
 
     const handleChange = e => {
-
-        updateUser( prev => ({
-            ...prev,
-            [e.target.name]: e.target.value
-        }))
+        debugger
+        updateUser( prev => 
+            {
+                debugger
+              return {...prev,[e.target.name]: e.target.value}
+            }
+        )
     }
 
     const handleSubmit = e => {
